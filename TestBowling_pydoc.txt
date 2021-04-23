@@ -1,0 +1,61 @@
+C:\Users\joelh\Desktop\BowlingGame>python.exe -m pydoc TestBowling
+Help on module TestBowling:
+
+NAME
+    TestBowling
+
+CLASSES
+    unittest.case.TestCase(builtins.object)
+        TestBowling
+
+    class TestBowling(unittest.case.TestCase)
+     |  TestBowling(methodName='runTest')
+     |
+     |  Method resolution order:
+     |      TestBowling
+     |      unittest.case.TestCase
+     |      builtins.object
+     |
+     |  Methods defined here:
+     |
+     |  setUp(self)
+     |      Hook method for setting up the test fixture before exercising it.
+     |
+     |  test_all_gutters(self)
+     |      Throws: 20
+     |      Pins per throw: 0
+     |      :return:score = 0
+     |
+     |  test_all_ones(self)
+     |      Throws: 20
+     |      Pins per throw: 1
+     |      :return: score: 20
+     |
+     |  test_final_frame_spare(self)
+     |      0 pins knocked over on first 18 throws.
+     |      Spare in final 2 rolls, and 5 pins knocked over
+     |      in the corresponding third roll of the 10th frame
+     |      :return: score: 15
+     |
+     |  test_final_frame_strikes(self)
+     |      0 pins knocked over on first 18 throws
+     |      3 strikes in final three rolls
+     |      :return: score: 30
+     |
+     |  test_multiple_throw_many(self)
+     |      Throws: 21
+     |      mixed group of throw_many arguements
+     |      :return: score: 207
+     |
+     |  test_perfect_game(self)
+     |      Throws: 12
+     |      Pins per throw: 10
+     |      Frames: 10
+     |      :return: score = 300
+     |
+     |  test_throw_one(self)
+     |      Throws: 20
+     |      One throw knocking down 7 pins
+     |      19 throws knocking down 0 pins each throw
+     |      Frames: 10
+     |      :return:score = 8
